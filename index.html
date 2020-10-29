@@ -7,10 +7,188 @@
 </head>
 <body>
     <h1>OVI Diseño de sitios web</h1>
-    <nav>
-        <ul class="Menú">
-            <li><a href="planning.html">Borrador</a></li>
-        </ul>
+    <nav class="NAV_BAR navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-target="#navbar-1" data-toggle="collapse" type="button">
+                    <!-- clase sr-only para dispositivos moviles solo se mostrara el menu-->
+                    <span class="sr-only">
+                        Menu
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img alt="OVI_2" src="images/OVI_3.jpg">
+                    </img>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-1">
+                <ul class="nav navbar-nav">
+                    <!--Menu desplegable de Lecturas del OVI-->
+                    <!--  =============================================================================================================================================================================================================================================================== -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                            LECTURAS
+                            <span class="caret">
+                            </span>
+                        </a>
+                        <ul aria-labelledby="dropdownMenuLecturas" class="dropdown-menu" role="menu">
+                            <li class="dropdown-header" role="presetation">
+                                Lecturas de contenido
+                            </li>
+                            <li class="divider">
+                            </li>
+                            <li role="presentation">
+                                <a href="LecturaGitHub.html" role="item">
+                                    Creando RepositoriosGIT y GITHUB
+                                </a>
+                            </li>
+                            <li class="divider">
+                            </li>
+                            <li role="presentation">
+                                <a href="Lectura Estilos CSS3.html" role="item">
+                                    Propiedades Basicas CS3
+                                </a>
+                            </li>
+                            <li class="divider">
+                            </li>
+                            <li role="presentation">
+                                <a href="Lectura Basica HTML5.html" role="item">
+                                    Estructura basica HTML5
+                                </a>
+                            </li>
+                            <li class="divider">
+                            </li>
+                            <li role="presentation">
+                                <a href="Lectura Multimendia HTML5.html" role="item">
+                                    Contenido Multimedia HTML5
+                                </a>
+                            </li>
+                            <li class="divider">
+                            </li>
+                            <li role="presentation">
+                                <a href="Lectura Trucos CSS3.html" role="item">
+                                    Trucos con  CS3
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--Menu desplegable de Multimedia del OVI-->
+                    <!--  =============================================================================================================================================================================================================================================================== -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                            MULTIMEDIA
+                            <span class="caret">
+                            </span>
+                        </a>
+                        <ul aria-labelledby="dropdownmenu1" class="dropdown-menu" role="menu">
+                            <li class="dropdown-header" role="presentation">
+                                Contenido Multimedial
+                            </li>
+                            <li class="divider">
+                            </li>
+                            <li role="presentation">
+                                <a href="Videos Actividad.html" role="item">
+                                    Que es HTML5
+                                </a>
+                            </li>
+                            <li class="divider">
+                            </li>
+                            <li role="presentation">
+                                <a href="Videos Actividad_1.html" role="item">
+                                    Que es GIT y GITHUB
+                                </a>
+                            </li>
+                            <li class="divider">
+                            </li>
+                            <li role="presentation">
+                                <a href="Videos Actividad_2.html" role="item">
+                                    Repositorio Local GITHUB
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--Menu desplegable de Actividades del OVI-->
+                        <!--  =============================================================================================================================================================================================================================================================== -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                                ACTIVIDADES OVI
+                                <span class="caret">
+                                </span>
+                            </a>
+                            <ul aria-labelledby="dropdownmenu1" class="dropdown-menu" role="menu">
+                                <li class="dropdown-header" role="presentation">
+                                    Actividades para realizar
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li role="presentation">
+                                    <a href="Preguntas HTML5.html" role="item">
+                                        Preguntas HTML5
+                                    </a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li role="presentation">
+                                    <a href="Preguntas CSS3.html" role="item">
+                                        Preguntas CSS3
+                                    </a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li role="presentation">
+                                    <a href="Preguntas GITHUB.html" role="item">
+                                        Preguntas GIT/GITHUB
+                                    </a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li role="presentation">
+                                    <a href="Mi primer Juego HTML.html" role="item">
+                                        Mi pirmer Juego en HTML5
+                                    </a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li role="presentation">
+                                    <a href="juego Ahorcado.html" role="item">
+                                        Jugo del Ahorcado
+                                    </a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li role="presentation">
+                                    <a href="pacman.html" role="item">
+                                        Pacman
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Autores.html">
+                                AUTORES
+                            </a>
+                        </li>
+                        <form action="" class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Buscar" type="text">
+                                    <a href="">
+                                        <i aria-hidden="true" class="fa fa-search fa-2x">
+                                        </i>
+                                    </a>
+                                </input>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
          <h6>Nombre: Luis Madariaga</h6>
